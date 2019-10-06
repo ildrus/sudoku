@@ -1,0 +1,36 @@
+
+
+#sudoku{
+	background: lightgreen;
+	border-spacing: 0px;
+	border: solid black 3px;
+}
+.cell{
+	height: 20px;
+	width: 20px; 
+    border-spacing: 0px;
+  	border:solid grey 1px;
+  	text-align: center;
+
+}
+input{
+	color:blue;
+	text-align: center;
+	background: lightgreen;
+	height: 20px;
+	width: 20px;
+	border:0px;
+}
+.cellLimitRight{
+	border-right: solid black 3px;
+}
+.cellLimitTop{
+	border-top: solid black 3px;
+}
+
+.cellLimitLeft{
+	border-left: solid black 3px;
+}
+.cellLimitBot{
+	border-bottom: solid black 3px;
+}
